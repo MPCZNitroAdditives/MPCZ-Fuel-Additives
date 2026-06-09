@@ -217,6 +217,56 @@ h2 .dim { color: #444; }
   line-height: 1.72;
 }
 
+/* STORY CARD — wide photo variant */
+.story-card--wide {
+  grid-column: 1 / -1;
+}
+.story-card--photo {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 0;
+  overflow: hidden;
+}
+.story-card--photo .story-card-text {
+  flex: 1;
+  padding: 1.75rem;
+}
+.story-card--photo .story-card-text h3 {
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.85rem;
+}
+.story-card--photo .story-card-text p {
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.72;
+}
+.story-card--photo .story-card-img {
+  flex: 0 0 340px;
+  max-width: 340px;
+  align-self: stretch;
+}
+.story-card--photo .story-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+@media (max-width: 768px) {
+  .story-card--photo {
+    flex-direction: column;
+  }
+  .story-card--photo .story-card-img {
+    flex: none;
+    width: 100%;
+    max-width: 100%;
+    height: 220px;
+  }
+}
+
 /* PRODUCTS GRID (home) */
 .products-grid {
   display: grid;
