@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safety Data Sheet | MPCZ Gas</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root { --accent: #FFBF00; }
+    .sds-section { max-width: 800px; }
+    .sds-section h3 {
+      font-size: 1.05rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      margin-top: 2.25rem;
+      margin-bottom: 0.65rem;
+      color: var(--accent);
+    }
+    .sds-section h3:first-of-type { margin-top: 0.5rem; }
+    .sds-section p, .sds-section li, .sds-section td, .sds-section th {
+      color: var(--muted);
+      font-size: 0.88rem;
+      line-height: 1.7;
+    }
+    .sds-section ul { margin-top: 0.4rem; padding-left: 1.25rem; }
+    .sds-section li { margin-bottom: 0.4rem; }
+    .sds-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 0.75rem;
+      font-size: 0.85rem;
+    }
+    .sds-table th, .sds-table td {
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+    }
+    .sds-table th { color: var(--text); background: #0e0e0e; }
+    .sds-placeholder {
+      color: #e74c3c;
+      font-style: italic;
+    }
+    .sds-banner {
+      margin-top: 1.5rem;
+      padding: 0.9rem 1.1rem;
+      border: 1px solid #e74c3c;
+      border-radius: 6px;
+      background: rgba(231,76,60,0.06);
+      font-size: 0.82rem;
+      color: #e74c3c;
+      line-height: 1.6;
+    }
+    .sds-meta {
+      margin-top: 1rem;
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #555;
+    }
+    .sds-updated {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">
+      <img src="logo.svg" alt="MPCZ Logo">
+      <span>MPCZ</span>
+    </a>
+    <button class="hamburger" aria-label="Menu" onclick="this.nextElementSibling.classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="daily.html">Daily</a></li>
+      <li><a href="restore.html">Restore | Break-In</a></li>
+      <li><a href="race.html">Race</a></li>
+      <li><a href="gas.html">Gas</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="section">
+  <div class="section-title">Safety Data Sheet</div>
+  <h2>MPCZ Gas<br><span class="dim">SDS</span></h2>
+  <div class="sds-meta">Product Code: MPCZ-GAS-001 | Format: GHS / OSHA HazCom 2012</div>
+
+  <div class="sds-banner">
+    This SDS is substantially complete with real composition, hazard classification, and supplier-sourced safety data. Remaining items: (1) physical lab report number for the flash point/density test (currently referenced by lab name only); (2) recommended professional regulatory review of the hazard classifications and transport categories before this document is relied upon for shipping, customs, or legal compliance purposes.
+  </div>
+
+  <div class="sds-section" style="margin-top:1.5rem">
+    <h3>1. Identification</h3>
+    <p><strong>Product Name:</strong> MPCZ Gas &mdash; 2-Stroke Gasoline Engine Fuel Additive</p>
+    <p><strong>Manufacturer:</strong> MPCZ, Bergen, Norway</p>
+    <p><strong>Recommended Use:</strong> Engine protectant additive for 2-stroke gasoline-powered radio-controlled (RC) model engines</p>
+    <p><strong>Emergency Contact:</strong> ChemTel Inc. &mdash; 1-800-255-3924 (US/Canada) | +1-813-248-0585 (International) <span class="sds-placeholder">CCN: 379463923</span></p>
+
+    <h3>2. Hazard Identification</h3>
+    <p><strong>GHS Classification:</strong> Not flammable/combustible by OSHA or GHS criteria (flash point 203&deg;C, confirmed by lab testing; consistent with the Bel-Ray&reg; 2T oil component, itself rated not flammable/combustible at 98&deg;C). Skin Irritant Cat. 2 and Eye Irritant Cat. 2 &mdash; driven primarily by the Bel-Ray&reg; 2T oil at 50% concentration (its own supplier SDS rates it OSHA-hazardous, eye- and skin-irritating), with additional contribution from ZDDP. Hazardous to the Aquatic Environment &mdash; likely Long-Term Cat. 2 rather than Cat. 3, given the Stoddard Solvent sub-component's high bioaccumulation potential (log Kow 3.16&ndash;7.15) within the Bel-Ray oil. <span class="sds-placeholder">Confirm exact aquatic category and any CNS/narcosis-related STOT statements with a regulatory chemist before finalizing.</span></p>
+    <p><strong>Signal Word:</strong> Warning</p>
+    <p><strong>Hazard Statements:</strong></p>
+    <ul>
+      <li>H315 &mdash; Causes skin irritation</li>
+      <li>H319 &mdash; Causes serious eye irritation</li>
+      <li><span class="sds-placeholder">H411 (Aquatic Chronic 2) or H413 (Aquatic Chronic 3) &mdash; pending confirmation of exact category</span></li>
+      <li><span class="sds-placeholder">Possible STOT-repeated exposure statement (CNS/narcosis) &mdash; Bel-Ray supplier SDS notes prolonged inhalation may cause central nervous system effects; confirm whether this carries through to the finished blend</span></li>
+    </ul>
+    <p><strong>Precautionary Statements:</strong> P260, P264, P271, P273, P280, P302+P352, P305+P351+P338, P332+P313, P337+P313, P362+P364, P391, P501. <span class="sds-placeholder">Confirm full P-statement set with a regulatory professional before finalizing label artwork.</span></p>
+
+    <h3>3. Composition / Information on Ingredients</h3>
+    <table class="sds-table">
+      <thead>
+        <tr><th>Component</th><th>CAS No.</th><th>Concentration (%)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>2-stroke engine oil (Bel-Ray&reg; MC-1 Racing Full Synthetic 2T Engine Oil) &mdash; <span class="sds-placeholder">causes eye irritation, irritating to skin, harmful to aquatic life per supplier SDS; not flammable/combustible by OSHA criteria (flash point 98&deg;C)</span></td><td class="sds-placeholder">Mixture &mdash; see sub-components below</td><td>50%</td></tr>
+        <tr><td>&nbsp;&nbsp;&mdash; Interchangeable base oils (within Bel-Ray oil, 10-20% of that component)</td><td>64742-52-5</td><td class="sds-placeholder">effective &asymp;5-10%</td></tr>
+        <tr><td>&nbsp;&nbsp;&mdash; Stoddard Solvent (within Bel-Ray oil, 2.5-10% of that component)</td><td>8052-41-3</td><td class="sds-placeholder">effective &asymp;1.25-5%</td></tr>
+        <tr><td>&nbsp;&nbsp;&mdash; Antimony, Tris(dipentylcarbamodithioato) (within Bel-Ray oil, 1-2.5% of that component)</td><td>15890-25-2</td><td class="sds-placeholder">effective &asymp;0.5-1.25%</td></tr>
+        <tr><td>Synthetic lubricant base (Klotz&reg; Original TechniPlate, KL-200/KL-205) &mdash; <span class="sds-placeholder">expected to be severely eye-irritating per supplier SDS; supplier also restricts use to 2-stroke engines only, verify applicability</span></td><td class="sds-placeholder">Trade secret &mdash; not disclosed by supplier</td><td>28%</td></tr>
+        <tr><td>PTFE-based lubricant (Super Lube&reg; w/ Syncolon&reg;, proprietary blend)</td><td class="sds-placeholder">Trade secret &mdash; not disclosed by supplier</td><td>15%</td></tr>
+        <tr><td>Zinc dialkyldithiophosphate (ZDDP) anti-wear additive (Rislone&reg; ZDDP Engine Oil Supplement); active component: Phosphorodithioic acid, mixed O,O-bis(2-ethylhexyl and iso-Bu) esters, zinc salts &mdash; <span class="sds-placeholder">product corrected to Rislone&reg; Hy-per Lube Zinc ZDDP Supplement &mdash; classified as a hazardous irritant: Skin Corrosion/Irritation Cat. 2 (H315); Serious Eye Irritation Cat. 2 (H319 in finished blend at typical dilution; the raw Rislone&reg; supplement itself may carry Cat. 1 at full strength); Hazardous to the Aquatic Environment, Long-Term Cat. 3 (H413); effective concentration in finished Gas blend &asymp;0.7&ndash;1.4%</span></td><td>68649-42-3</td><td>7%</td></tr>
+      </tbody>
+    </table>
+
+    <h3>4. First-Aid Measures</h3>
+    <p><strong>Inhalation:</strong> Move to fresh air. Call a physician if symptoms develop or persist. Prolonged inhalation may be harmful (CNS effects per Bel-Ray&reg; component supplier data).</p>
+    <p><strong>Skin Contact:</strong> Remove and isolate contaminated clothing and shoes. Wash off immediately with plenty of water and soap. Get medical attention if irritation develops or persists.</p>
+    <p><strong>Eye Contact:</strong> Immediately flush eyes with plenty of water for at least 15 minutes, holding eyelids open. Get medical attention if irritation develops or persists.</p>
+    <p><strong>Ingestion:</strong> Rinse mouth thoroughly. Do not induce vomiting. If a large amount is swallowed, call a poison control center immediately. Never give liquid to an unconscious person.</p>
+    <p><strong>Notes to physician:</strong> Symptoms may be delayed. Ensure medical personnel are aware of the materials involved and take precautions to protect themselves.</p>
+
+    <h3>5. Fire-Fighting Measures</h3>
+    <p><strong>Suitable Extinguishing Media:</strong> Water, water fog, foam, dry chemical powder, carbon dioxide (CO2).</p>
+    <p><strong>Specific Hazards:</strong> Flash point 203&deg;C (lab-confirmed) &mdash; not flammable/combustible by OSHA or GHS criteria. Move containers from fire area if safe to do so; cool exposed containers with water spray. Hazardous combustion products may include nitrogen oxides, carbon monoxide, and carbon dioxide.</p>
+
+    <h3>6. Accidental Release Measures</h3>
+    <p>Keep unnecessary personnel away and upwind of the spill. Wear appropriate protective equipment and avoid skin/eye contact. Beware of slippery surfaces from spilled material. Prevent further leakage/spillage if safe to do so; do not contaminate water. Absorb with liquid-binding material (sand, diatomite, sawdust). Recover spilled product and place in suitable closed containers for disposal per Section 13. Never return spills to original containers for reuse.</p>
+
+    <h3>7. Handling and Storage</h3>
+    <p>Store at room temperature, in a cool, well-ventilated place away from heat, sparks, and open flame. Protect material from direct sunlight. Avoid contact with skin and eyes. Do not use in areas without adequate ventilation. Avoid prolonged exposure. Wash thoroughly after handling. Avoid release to the environment. <strong>Note:</strong> hydrogen sulfide (H2S) may be released if this material is heated &mdash; do not depend on sense of smell for warning. Keep away from food, drink, and animal feedstuffs. Keep out of reach of children.</p>
+
+    <h3>8. Exposure Controls / Personal Protection</h3>
+    <p><strong>Exposure Limits:</strong> Bel-Ray&reg; 2T oil components &mdash; base oils 5 mg/m&sup3; TWA (PEL/mist), Antimony Tris(dipentylcarbamodithioato) 0.5 mg/m&sup3; TWA, Stoddard Solvent 100 ppm TWA (ACGIH) / 2900 mg/m&sup3; (500 ppm) PEL. ZDDP component &mdash; no established workplace exposure limit per supplier data.</p>
+    <p><strong>Personal Protective Equipment:</strong> Avoid contact with eyes and skin &mdash; wear suitable protective clothing and impervious gloves. Good general ventilation (10+ air changes/hour recommended) or local exhaust ventilation to maintain airborne levels below exposure limits. Certified respirator required if workers face concentrations above exposure limits.</p>
+
+    <h3>9. Physical and Chemical Properties</h3>
+    <table class="sds-table">
+      <tbody>
+        <tr><td>Appearance</td><td class="sds-placeholder">Liquid; exact color/form of finished blend pending visual confirmation (component references: Klotz base is red, Bel-Ray&reg; 2T oil is blue/oily)</td></tr>
+        <tr><td>Odor</td><td class="sds-placeholder">Mild odor expected (consistent with Klotz and Bel-Ray&reg; components); not yet confirmed for finished blend</td></tr>
+        <tr><td>Flash Point</td><td>203&deg;C &mdash; per third-party lab testing of finished blend <span class="sds-placeholder">Lab: Quality Chemical Laboratories, 3220-A Corporate Drive, Wilmington, NC 28405</span></td></tr>
+        <tr><td>Density</td><td>0.880 g/cm&sup3; (880 kg/m&sup3;) &mdash; per third-party lab testing of finished blend <span class="sds-placeholder">Lab: Quality Chemical Laboratories, 3220-A Corporate Drive, Wilmington, NC 28405</span></td></tr>
+        <tr><td>Solubility in Water</td><td class="sds-placeholder">Not miscible/insoluble expected (oil-based blend); not yet lab-confirmed</td></tr>
+      </tbody>
+    </table>
+
+    <h3>10. Stability and Reactivity</h3>
+    <p>Stable under normal temperatures and pressures when stored and used as directed. Avoid heat, sparks, and open flame. Avoid strong oxidizing agents (incompatible with ZDDP component). No hazardous polymerization. Thermal decomposition may release phosphine, nitrogen oxides, sulfur oxides, toxic metal oxide fumes, and hydrogen sulfide (per Bel-Ray&reg; 2T oil component supplier data) &mdash; do not depend on odor for warning of H2S release.</p>
+
+    <h3>11. Toxicological Information</h3>
+    <p>Causes eye irritation and is irritating to skin (driven by the Bel-Ray&reg; 2T oil at 50% concentration and the ZDDP component). May be irritating to inhale; prolonged inhalation may be harmful and is associated with central nervous system effects (narcosis, decreased motor function, behavioral changes) per the Bel-Ray&reg; component supplier SDS. Ingestion may cause gastrointestinal irritation, nausea, vomiting, and diarrhea. Repeated absorption may affect the central nervous system, liver, kidneys, and blood per supplier data. Not considered a carcinogen by IARC, ACGIH, NTP, or OSHA based on available component data.</p>
+
+    <h3>12. Ecological Information</h3>
+    <p>Components of this product are hazardous to aquatic life and may cause long-term adverse effects in the environment, attributable to both the ZDDP component and the Stoddard Solvent/antimony sub-components within the Bel-Ray&reg; 2T oil (log Kow 3.16&ndash;7.15, indicating bioaccumulation potential). Avoid release to the environment, drains, or waterways.</p>
+
+    <h3>13. Disposal Considerations</h3>
+    <p>This product, in its present state, is not expected to be a hazardous waste per the Bel-Ray&reg; 2T oil component's supplier classification (40 CFR 261.4(b)(4)), though the ZDDP component's irritant classification should be considered. Dispose of in accordance with local, regional, and national regulations. Do not pour into drains or waterways. It is the responsibility of the user to determine, at time of disposal, whether the product meets hazardous waste criteria in their jurisdiction.</p>
+
+    <h3>14. Transport Information</h3>
+    <p><strong>UN Number:</strong> Not regulated as dangerous goods (not flammable/combustible, flash point 203&deg;C, consistent with Bel-Ray&reg; component's own "not regulated" transport status).</p>
+    <p><strong>Proper Shipping Name:</strong> Not applicable &mdash; not regulated.</p>
+    <p><strong>Transport Hazard Class:</strong> Not regulated (DOT, IMDG, IATA).</p>
+
+    <h3>15. Regulatory Information</h3>
+    <p>This product is considered a "Hazardous Chemical" under OSHA Hazard Communication Standard (29 CFR 1910.1200), consistent with the Bel-Ray&reg; 2T oil component's own classification. All components are listed on the U.S. EPA TSCA Inventory per supplier data (Bel-Ray, Klotz, Rislone). <span class="sds-placeholder">REACH and other regional chemical inventory status for the finished blend not yet confirmed; verify with a regulatory professional before international distribution. Antimony Tris(dipentylcarbamodithioato) sub-component is subject to SARA Title III Section 313 reporting (De Minimis 1.0%) in the US &mdash; confirm whether this applies given its diluted concentration in the finished blend.</span></p>
+
+    <h3>16. Other Information</h3>
+    <p>This SDS was prepared in accordance with the Globally Harmonized System (GHS) of Classification and Labelling of Chemicals. Information in this document is believed to be accurate as of the revision date but is provided without warranty. Users are responsible for determining the suitability of this product for their own use and for compliance with all applicable laws.</p>
+
+    <div class="sds-updated">Revision Date: June 2026 &mdash; Version 0.2 (Composition and hazard data confirmed; pending final regulatory review)</div>
+  </div>
+</div>
+
+<footer>
+  <div class="f-inner">
+    <img src="logo.svg" alt="MPCZ">
+    <p>MPCZ | Nitro Fuel Additive | Engine Protectant</p>
+    <p>Bergen, Norway | Est. 1999</p>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
